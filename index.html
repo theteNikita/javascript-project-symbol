@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my javascript ptoject</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+    margin: 0;
+    padding:0 ;
+    height:100vh ;
+    width:100% ;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(24, 22, 23),rgb(5, 48, 62),rgb(82, 5, 16)) ;
+}
+.cards{
+    display: grid;
+    grid-template-columns:auto auto auto  auto;
+    margin:20px ;
+
+} 
+.bt{
+    margin:30px ;
+    height:40px;
+    width:100px ;
+    box-shadow:0,8px,5px,grey ;
+    border-style: none;
+    background-color:rgba(255,255,255,.5) ;
+    color:darkmagenta ;
+    text-align: center;
+    font-size:11px ;
+    font-family:monospace ;
+    text-shadow:0,2px,30px,rgb(78, 107, 185) ;
+}
+.result{
+    width:300px ;
+    height:200px ;
+    background-color:rgba(255,255,255,.5) ;
+    border-radius:20px ;
+    margin: auto;
+    text-align: center;
+    font-size:5rem ;
+}
+</style>
+<body>
+    <!--section  -->
+    <div class="cards">
+        <button id="btn1"class="bt">heart </button>
+        <button id="btn2"class="bt">smile </button>
+        <button id="btn3"class="bt">smile eye </button>
+        <button id="btn4"class="bt">Grinning Squinting Face </button>
+        <button id="btn5"class="bt">Grinning Face With Sweat </button>
+        <button id="btn6"class="bt">Rolling On The Floor Laughing </button>
+        <button id="btn7"class="bt">Face With Tears Of Joy </button>
+        <button id="btn8"class="bt"> Smiling Face With Smiling Eyes</button>
+        <button id="btn9"class="bt">Smiling Face With Halo </button>
+        <button id="btn10"class="bt">Smiling Face With 3 Hearts </button>
+        <button id="btn11"class="bt">Face Blowing A Kiss </button>
+        <button id="btn12"class="bt">kissing Face With Closed Eyes</button>
+        <button id="btn13"class="bt">Star-Struck </button>
+        <button id="btn14"class="bt">Winking Face With Tongue </button>
+        <button id="btn15"class="bt"> Hugging Face</button>
+        
+    </div>
+    <div class="result">
+
+    </div>
+    <!-- section  -->
+</body>
+<script>
+    var a=document.querySelector("#btn1")
+    var res=document.querySelector(".result")
+    function get() {
+
+        res.innerHTML="&#x2764 "
+        
+
+    }
+   a.addEventListener("click",get) 
+//    secound btn
+
+   var b = document.querySelector("#btn2")
+    var res = document.querySelector(".result")
+    function secound() {
+
+        res.innerHTML="&#128512"
+        
+
+    }
+   b.addEventListener("click",secound) 
+//    section third
+
+var c = document.querySelector("#btn3")
+    var res = document.querySelector(".result")
+    function secound() {
+
+        res.innerHTML="&#128516"
+        
+
+    }
+   c.addEventListener("click",secound) 
+// section five
+var d = document.querySelector("#btn4")
+    var res = document.querySelector(".result")
+    function secound() {
+
+        res.innerHTML="&#128518"
+        
+
+    }
+   d.addEventListener("click",secound) 
+// section six
+var e = document.querySelector("#btn5")
+    var res = document.querySelector(".result")
+    function six() {
+
+        res.innerHTML="&#128517"
+        
+
+    }
+   e.addEventListener("click",six)
+    // section seven
+    var f = document.querySelector("#btn6")
+    var res = document.querySelector(".result")
+    function seven() {
+
+        res.innerHTML="&#129315"
+        
+
+    }
+   f.addEventListener("click",seven)
+//    section eight
+var f = document.querySelector("#btn7")
+    var res = document.querySelector(".result")
+    function eight() {
+
+        res.innerHTML="&#128514"
+        
+
+    }
+   f.addEventListener("click",eight);
+//    section nine
+var f = document.querySelector("#btn8")
+    var res = document.querySelector(".result")
+    function nine() {
+
+        res.innerHTML="&#128522"
+        
+
+    }
+   f.addEventListener("click",nine)
+// section ten
+var f = document.querySelector("#btn9")
+    var res = document.querySelector(".result")
+    function ten() {
+
+        res.innerHTML="&#128519"
+        
+
+    }
+   f.addEventListener("click",ten);
+//    section eleven
+var f = document.querySelector("#btn10")
+    var res = document.querySelector(".result")
+    function eleven() {
+
+        res.innerHTML="&#129392"
+        
+
+    }
+   f.addEventListener("click",eleven)
+// section 12
+var f = document.querySelector("#btn11")
+    var res = document.querySelector(".result")
+    function tw() {
+
+        res.innerHTML="&#128536"
+        
+
+    }
+   f.addEventListener("click",tw)
+//    section 13
+var f = document.querySelector("#btn12")
+    var res = document.querySelector(".result")
+    function thr() {
+
+        res.innerHTML="&#128538"
+        
+
+    }
+   f.addEventListener("click",thr)
+//    section 14
+var f = document.querySelector("#btn13")
+    var res = document.querySelector(".result")
+    function four() {
+
+        res.innerHTML="&#129321"
+        
+
+    }
+   f.addEventListener("click",four)
+// section 15
+var f = document.querySelector("#btn14")
+    var res = document.querySelector(".result")
+    function f() {
+
+        res.innerHTML="&#128540"
+        
+
+    }
+   f.addEventListener("click",f)
+// section 16
+var f = document.querySelector("#btn15")
+    var res = document.querySelector(".result")
+    function p() {
+
+        res.innerHTML="&#129303"
+        
+
+    }
+   f.addEventListener("click",p);
+</script>
+</html>
